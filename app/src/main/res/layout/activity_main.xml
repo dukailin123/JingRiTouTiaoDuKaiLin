@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+   <FrameLayout
+       android:id="@+id/fl"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="8.5"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@mipmap/b_newhome_tabbar_press"/>
+            <TextView
+                android:id="@+id/tvhome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="首页"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/discover"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+          android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="88dp">
+            <ImageView
+                android:id="@+id/image_discover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@mipmap/b_newdiscover_tabbar"/>
+            <TextView
+                android:id="@+id/tvdiscover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="视屏"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/care"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_care"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@mipmap/b_newcare_tabbar"/>
+            <TextView
+                android:id="@+id/tvcare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="关注"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@mipmap/b_newnologin_tabbar"/>
+            <TextView
+                android:id="@+id/tvmain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="我的"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
